@@ -1,0 +1,10 @@
+﻿global using Core;
+global using Core.Abstractions;
+global using Core.Commons;
+global using Core.Abstractions.Handlers;
+global using Core.Abstractions.Requests;
+global using Core.Commons.Requests;
+global using Identity.MongoDb.Commons;
+global using Serilog;
+global using Void = Core.Void;
+global using OpenId = OpenIddict.Abstractions.OpenIddictConstants;

@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{1A4ABCD3-DB38-4937-9140-314BE0C26D9A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src_deck", "src_deck", "{E9B7DE34-E616-480C-9773-7B41FF641B8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "src\Core\Core.csproj", "{3423F49B-D93B-480F-B08D-DEB212C5F8AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.App", "src\Core.App\Core.App.csproj", "{240B1685-81C4-4C93-B073-0F2BCEAA2E7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.App.MongoDb", "src\Core.App.MongoDb\Core.App.MongoDb.csproj", "{34F00DE0-00E8-4695-93E7-A78F7F78D84E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity", "src\Identity\Identity.csproj", "{B77716AC-B33B-4AAB-9DEF-AC1955B2C4EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Web", "src\Core.Web\Core.Web.csproj", "{113964E7-C947-4240-8B2C-BF9FAA2955D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.App.MongoDb", "src\Identity.App.MongoDb\Identity.App.MongoDb.csproj", "{293DEA3D-545C-4A56-9D06-A3F3722802BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfDepravity", "src\DeckOfDepravity\DeckOfDepravity.csproj", "{4E2C85B4-73B2-4DA5-AB90-542E4071C72C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src_core", "src_core", "{FBB5DC60-D13A-4D92-BE1C-F97F1DDE0154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src_id", "src_id", "{E9C76D1C-0C6E-4A0F-831F-84C9DD298D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfDepravity.App.MongoDb", "src\DeckOfDepravity.App.MongoDb\DeckOfDepravity.App.MongoDb.csproj", "{11D22C06-4305-4A94-ABFD-2692BB4A274D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3423F49B-D93B-480F-B08D-DEB212C5F8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3423F49B-D93B-480F-B08D-DEB212C5F8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3423F49B-D93B-480F-B08D-DEB212C5F8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3423F49B-D93B-480F-B08D-DEB212C5F8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240B1685-81C4-4C93-B073-0F2BCEAA2E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240B1685-81C4-4C93-B073-0F2BCEAA2E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240B1685-81C4-4C93-B073-0F2BCEAA2E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240B1685-81C4-4C93-B073-0F2BCEAA2E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F00DE0-00E8-4695-93E7-A78F7F78D84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F00DE0-00E8-4695-93E7-A78F7F78D84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F00DE0-00E8-4695-93E7-A78F7F78D84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F00DE0-00E8-4695-93E7-A78F7F78D84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77716AC-B33B-4AAB-9DEF-AC1955B2C4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77716AC-B33B-4AAB-9DEF-AC1955B2C4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77716AC-B33B-4AAB-9DEF-AC1955B2C4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77716AC-B33B-4AAB-9DEF-AC1955B2C4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113964E7-C947-4240-8B2C-BF9FAA2955D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113964E7-C947-4240-8B2C-BF9FAA2955D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113964E7-C947-4240-8B2C-BF9FAA2955D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113964E7-C947-4240-8B2C-BF9FAA2955D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293DEA3D-545C-4A56-9D06-A3F3722802BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293DEA3D-545C-4A56-9D06-A3F3722802BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293DEA3D-545C-4A56-9D06-A3F3722802BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293DEA3D-545C-4A56-9D06-A3F3722802BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2C85B4-73B2-4DA5-AB90-542E4071C72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2C85B4-73B2-4DA5-AB90-542E4071C72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2C85B4-73B2-4DA5-AB90-542E4071C72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2C85B4-73B2-4DA5-AB90-542E4071C72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D22C06-4305-4A94-ABFD-2692BB4A274D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D22C06-4305-4A94-ABFD-2692BB4A274D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D22C06-4305-4A94-ABFD-2692BB4A274D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D22C06-4305-4A94-ABFD-2692BB4A274D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3423F49B-D93B-480F-B08D-DEB212C5F8AF} = {FBB5DC60-D13A-4D92-BE1C-F97F1DDE0154}
+		{240B1685-81C4-4C93-B073-0F2BCEAA2E7B} = {FBB5DC60-D13A-4D92-BE1C-F97F1DDE0154}
+		{34F00DE0-00E8-4695-93E7-A78F7F78D84E} = {FBB5DC60-D13A-4D92-BE1C-F97F1DDE0154}
+		{B77716AC-B33B-4AAB-9DEF-AC1955B2C4EA} = {E9C76D1C-0C6E-4A0F-831F-84C9DD298D76}
+		{113964E7-C947-4240-8B2C-BF9FAA2955D0} = {FBB5DC60-D13A-4D92-BE1C-F97F1DDE0154}
+		{293DEA3D-545C-4A56-9D06-A3F3722802BD} = {E9C76D1C-0C6E-4A0F-831F-84C9DD298D76}
+		{4E2C85B4-73B2-4DA5-AB90-542E4071C72C} = {E9B7DE34-E616-480C-9773-7B41FF641B8E}
+		{11D22C06-4305-4A94-ABFD-2692BB4A274D} = {E9B7DE34-E616-480C-9773-7B41FF641B8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D4F5A32-5F1E-4FA0-ADBF-5A22609CB22B}
+	EndGlobalSection
+EndGlobal
