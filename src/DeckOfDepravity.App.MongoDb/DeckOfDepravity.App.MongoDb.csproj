@@ -5,4 +5,9 @@
     <RootNamespace>DeckOfDepravity.MongoDb</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src-modules\Core\src\Core.App.MongoDb\Core.App.MongoDb.csproj" />
+    <ProjectReference Include="..\DeckOfDepravity\DeckOfDepravity.csproj" />
+  </ItemGroup>
+
 </Project>

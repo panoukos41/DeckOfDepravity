@@ -1,0 +1,3 @@
+[submodule "src-modules/Core"]
+	path = src-modules/Core
+	url = https://github.com/panoukos41/Core
